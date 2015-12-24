@@ -1,0 +1,59 @@
+title:            Renna of Ravenwood
+tagline:          A site for you
+description:      A site to publish your Arts Award; and also to blog, if you want to.
+canonical: http://rennaofravenwood.com
+
+# Owner/author information
+owner:
+  name:           Emily Pieters
+  avatar:         avatar.png
+  bio:            "Crafty Artist"
+  email:          emily@zopatista.com
+  location:       "Cambridgeshire, Great Britain"
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           en_UK
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Arts Award
+    url: /artsaward
+  - title: Blog
+    url: /blog
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/London
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
