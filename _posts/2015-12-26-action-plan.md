@@ -18,4 +18,6 @@ Here's where I'm putting my action plan(s).  It took a couple of revisions to ge
   
   ![Action Plan 3]({{ site.url }}/images/action-plan-3.png)
 
-  Oh well, all I had to do was shift the dates along a bit.
+  Oh well, all I had to do was shift the dates along a bit.  
+
+  Last image coming soon!
